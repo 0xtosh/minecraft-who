@@ -1,6 +1,6 @@
 # minecraft-who
 See who is online on your Linux Minecraft server using a simple Python3 Flask API and web front-end.
-![example](minecraft-who.jpg)
+![example](minecraft-whos.jpg)
 # Installation prerequisites
 - sudo apt install grep coreutils python3 python3-pip netcat
 - pip3 install requests beautifulsoup4 Flask flask_cors APScheduler tailer
