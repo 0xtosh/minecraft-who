@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     function addPlayer(player) {
+	const tmpusername = player.split(' ')[0]; // strip everything after the first space
+        player = tmpusername;
         const playersDiv = document.getElementById('players');
         const playerElement = document.createElement('div');
         playerElement.classList.add('player');
